@@ -2,6 +2,8 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&pause=1000&center=true&vCenter=true&width=600&lines=Hey+there%2C+I'm+Kanak+Agarwal+%F0%9F%91%8B." alt="Typing SVG" /></a>
 </h1>
 
+![](https://komarev.com/ghpvc/?username=kanakaero&label=Profile%20Visits&color=blue&style=for-the-badge)
+
 ## About Me
 
 <p>I'm a first-year postgraduate student at the <a href="https://www.iitm.ac.in/">Indian Institute of Technology Madras</a>, pursuing a Master's degree in Computational Engineering (CFD). I hold a Bachelor's degree in Aeronautical Engineering from the <a href="https://www.manipal.edu/mit.html">Manipal Institute of Technology</a>.</p><br>
@@ -32,6 +34,3 @@
 </p>
 
 ## Github Stats
-
-[![Dark](https://github-readme-stats.vercel.app/api?username=kanakaero&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
-[![Light](https://github-readme-stats.vercel.app/api?username=kanakaero&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only)
