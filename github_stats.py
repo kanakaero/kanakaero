@@ -309,16 +309,20 @@ Languages:
 
             for repo in repos:
                 name = repo.get("nameWithOwner")
+                
                 if name in self._repos or name in self._exclude_repos:
                     continue
+                if not name.startswith(self.username + "/"):
+                    continue
+                if name in self._repos or name in self._exclude_repos:
+                    continue
+
                 self._repos.add(name)
                 self._stargazers += repo.get("stargazers").get("totalCount", 0)
                 self._forks += repo.get("forkCount", 0)
 
                 for lang in repo.get("languages", {}).get("edges", []):
                     name = lang.get("node", {}).get("name", "Other")
-                    if not name.startswith(self.username + "/"):
-                        continue
                     languages = await self.languages
                     if name in self._exclude_langs: continue
                     if name in languages:
