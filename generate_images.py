@@ -99,6 +99,8 @@ async def main() -> None:
         raise Exception("A personal access token is required to proceed!")
     user = "kanakaero" 
     exclude_repos = os.getenv("EXCLUDED")
+    print("User:", user)
+    print("Resolved name:", await s.name)
     exclude_repos = ({x.strip() for x in exclude_repos.split(",")}
                      if exclude_repos else None)
     exclude_langs = os.getenv("EXCLUDED_LANGS")
