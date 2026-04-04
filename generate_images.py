@@ -5,7 +5,6 @@ import os
 import re
 
 import aiohttp
-
 from github_stats import Stats
 
 
