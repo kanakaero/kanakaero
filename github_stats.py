@@ -304,8 +304,7 @@ Languages:
                            .get("data", {})
                            .get("viewer", {})
                            .get("repositories", {}))
-            repos = (contrib_repos.get("nodes", [])
-                     + owned_repos.get("nodes", []))
+            repos = (contrib_repos.get("nodes", []))
 
             for repo in repos:
                 name = repo.get("nameWithOwner")
@@ -317,6 +316,8 @@ Languages:
 
                 for lang in repo.get("languages", {}).get("edges", []):
                     name = lang.get("node", {}).get("name", "Other")
+                    if lang == "Lua":
+                        print("Lua found in repo:", repo.get("nameWithOwner"))
                     languages = await self.languages
                     if name in self._exclude_langs: continue
                     if name in languages:
