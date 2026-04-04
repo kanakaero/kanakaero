@@ -296,10 +296,11 @@ Languages:
                               .get("viewer", {})
                               .get("login", "No Name"))
 
-            contrib_repos = (raw_results
-                             .get("data", {})
-                             .get("viewer", {})
-                             .get("repositoriesContributedTo", {}))
+            # contrib_repos = (raw_results
+            #                  .get("data", {})
+            #                  .get("viewer", {})
+            #                  .get("repositoriesContributedTo", {}))
+            
             owned_repos = (raw_results
                            .get("data", {})
                            .get("viewer", {})
@@ -316,8 +317,6 @@ Languages:
 
                 for lang in repo.get("languages", {}).get("edges", []):
                     name = lang.get("node", {}).get("name", "Other")
-                    if lang == "Lua":
-                        print("Lua found in repo:", repo.get("nameWithOwner"))
                     languages = await self.languages
                     if name in self._exclude_langs: continue
                     if name in languages:
@@ -330,14 +329,15 @@ Languages:
                             "color": lang.get("node", {}).get("color")
                         }
 
-            if owned_repos.get("pageInfo", {}).get("hasNextPage", False) or \
-                    contrib_repos.get("pageInfo", {}).get("hasNextPage", False):
+            if owned_repos.get("pageInfo", {}).get("hasNextPage", False):
+            # or \
+            #         contrib_repos.get("pageInfo", {}).get("hasNextPage", False):
                 next_owned = (owned_repos
                               .get("pageInfo", {})
                               .get("endCursor", next_owned))
-                next_contrib = (contrib_repos
-                                .get("pageInfo", {})
-                                .get("endCursor", next_contrib))
+                # next_contrib = (contrib_repos
+                #                 .get("pageInfo", {})
+                #                 .get("endCursor", next_contrib))
             else:
                 break
 
