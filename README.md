@@ -9,7 +9,7 @@
 <p>I'm a first-year postgraduate student at the <a href="https://www.iitm.ac.in/">Indian Institute of Technology Madras</a>, pursuing a Master's degree in Computational Engineering (CFD). I hold a Bachelor's degree in Aeronautical Engineering from the <a href="https://www.manipal.edu/mit.html">Manipal Institute of Technology</a>.</p><br>
 
 <p align="left">
-  <a href="kanakaero.github.io"><img src="https://img.icons8.com/ios-filled/50/4a90e2/domain.png" width="48"></a>
+  <a href="https://kanakaero.github.io/"><img src="https://img.icons8.com/ios-filled/50/4a90e2/domain.png" width="48"></a>
   <a href="mailto:kanakagarwalaero@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" style="vertical-align:top;"></a>
   <a href="https://www.linkedin.com/in/kanakaero/"><img src="https://skillicons.dev/icons?i=linkedin" style="vertical-align:top;"></a>
   <a href="https://scholar.google.com/citations?user=SEanjCoAAAAJ"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg" width="45"></a>
