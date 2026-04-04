@@ -34,3 +34,5 @@
 </p>
 
 ## Github Stats
+![Overview](./generated/overview.svg)
+![Languages](./generated/languages.svg)
