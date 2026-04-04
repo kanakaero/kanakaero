@@ -38,7 +38,7 @@ async def generate_overview(s: Stats) -> None:
     output = re.sub("{{ contributions }}", f"{await s.total_contributions:,}",
                     output)
     output = re.sub("{{ lines_changed }}", "N/A", output)
-    output = re.sub("{{ views }}", "N/A", output)
+    output = re.sub("{{ views }}", f"{await s.views:,}", output)
     output = re.sub("{{ repos }}", f"{len(await s.repos):,}", output)
 
     generate_output_folder()
