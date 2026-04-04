@@ -304,7 +304,7 @@ Languages:
                            .get("data", {})
                            .get("viewer", {})
                            .get("repositories", {}))
-            repos = (contrib_repos.get("nodes", []))
+            repos = (owned_repos.get("nodes", []))
 
             for repo in repos:
                 name = repo.get("nameWithOwner")
