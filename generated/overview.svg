@@ -1,0 +1,14 @@
+
+<svg width="500" height="200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { fill: #ff79c6; font-size: 18px; font-family: monospace; }
+    .text { fill: #8be9fd; font-size: 14px; font-family: monospace; }
+  </style>
+
+  <rect width="100%" height="100%" fill="#0d1117" rx="10"/>
+
+  <text x="20" y="40" class="title">Kanak Agarwal's GitHub Stats</text>
+
+  <text x="20" y="80" class="text">★ Stars: 16</text>
+  <text x="20" y="110" class="text">⑂ Forks: 3</text>
+</svg>
