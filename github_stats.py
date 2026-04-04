@@ -317,8 +317,8 @@ Languages:
 
                 for lang in repo.get("languages", {}).get("edges", []):
                     name = lang.get("node", {}).get("name", "Other")
-                    if name == "Lua":
-                        print("Lua found in repo:", repo.get("nameWithOwner"))
+                    if not name.startswith(self.username + "/"):
+                        continue
                     languages = await self.languages
                     if name in self._exclude_langs: continue
                     if name in languages:
