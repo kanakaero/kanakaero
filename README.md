@@ -33,6 +33,6 @@
   <img src="https://skillicons.dev/icons?i=git,github,linux,arch,latex,vscode,vim," />
 </p>
 
-## Github Stats
+## Stats
 ![Overview](./generated/overview.svg)
 ![Languages](./generated/languages.svg)
