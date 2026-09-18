@@ -6,7 +6,7 @@
 
 ## About Me
 
-<p>I'm a first-year postgraduate student at the <a href="https://www.iitm.ac.in/">Indian Institute of Technology Madras</a>, pursuing a Master's degree in Computational Engineering (CFD). I hold a Bachelor's degree in Aeronautical Engineering from the <a href="https://www.manipal.edu/mit.html">Manipal Institute of Technology</a>.</p><br>
+<p>I am a PhD candidate at the <a href="https://www.iitm.ac.in/">Indian Institute of Technology Madras</a>, pursuing a Doctorate in Aerospace Engineering under the guidance of <a href="https://home.iitm.ac.in/sameen/">Prof A. Sameen</a>.</a></p><br>
 
 <p align="left">
   <a href="https://kanakaero.github.io/"><img src="https://img.icons8.com/ios-filled/50/4a90e2/domain.png" width="48"></a>
@@ -15,12 +15,10 @@
   <a href="https://scholar.google.com/citations?user=SEanjCoAAAAJ"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg" width="45"></a>
 </p>
 
-## Current Research
-<p> My current research focuses on the temporal evolution of buoyant vortical structures using direct numerical simulation (DNS) techniques and data-driven approaches, under the guidance of <a href="https://home.iitm.ac.in/sameen/">Prof A. Sameen</a>, at the Department of Aerospace Engineering, IIT Madras.</p>
-
 ## Research Interests
 <ul>
 <li> Fluid Dynamics </li>
+<li> Vorticity Dynamics </li>
 <li> High Performance Computing (HPC) </li>
 <li> Computational Fluid Dynamics (CFD) </li>
 <li> Machine Learning/Data-Driven Modelling </li>
